@@ -12,7 +12,7 @@ class MessageListActivity : AppCompatActivity() {
         setContentView(R.layout.activity_message_list)
 
         new_message.setOnClickListener{
-            val intent = Intent(this,)
+            val intent = Intent(this,SendNewMessage::class.java)
             startActivity(intent)
         }
         signout_button.setOnClickListener{
