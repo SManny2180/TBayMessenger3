@@ -3,7 +3,9 @@
 
 **Introduction:**
 
-The power to instantly message and share pictures with your friends and family. T-Bay Messenger is the latest android messenger app that allows you to connect with anyone with access to the internet.
+The power to instantly message and share pictures with your friends and family.
+T-Bay Messenger is the latest android messenger app that allows you to connect with anyone with access to the internet.
+T-Bay Messenger is built with Google's Firebase platform in combination with Kotlin.
 
 **Available only on Android.**
 
@@ -32,19 +34,17 @@ To report any bugs found or request any features feel free to email us @ [Mannys
 
 [https://github.com/SManny2180/2430FinalProject](https://github.com/SManny2180/2430FinalProject)
 
-1. Export as .apk file
+2. Export as .apk file
 
-1. In your device settings allow Install apps from external sources.
+3. In your device settings allow Install apps from external sources.
 
-1. Connect your device to your computer and install the .apk file
+4. Connect your device to your computer and install the .apk file
 
-1. Open the app on your device
+5. Open the app on your device
 
-1. Register with Email and password
+6. Register with Email and password
 
-
-
-1. Enjoy!
+7. Enjoy!
 
 **Built with Firebase**
 
