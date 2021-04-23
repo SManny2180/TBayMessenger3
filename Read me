@@ -1,0 +1,53 @@
+**The Latest Instant Messenger**
+
+
+**Introduction:**
+
+The power to instantly message and share pictures with your friends and family. T-Bay Messenger is the latest android messenger app that allows you to connect with anyone with access to the internet.
+
+**Available only on Android.**
+
+**Features:**
+
+- Instantly send messages to your friends/family
+- Instantly send pictures to your friends/family
+- Stores previous chat history
+- Store all conversations in one window
+
+**Known Bugs:**
+
+- Failed login attempts
+
+(Please for now re attempt the login)
+
+- Failure of sending attachments
+
+(Being looked into)
+
+To report any bugs found or request any features feel free to email us @ [Mannys2180@gmail.com](mailto:Mannys2180@gmail.com).
+
+**Installation:**
+
+1. Download or clone the git repository from
+
+[https://github.com/SManny2180/2430FinalProject](https://github.com/SManny2180/2430FinalProject)
+
+1. Export as .apk file
+
+1. In your device settings allow Install apps from external sources.
+
+1. Connect your device to your computer and install the .apk file
+
+1. Open the app on your device
+
+1. Register with Email and password
+
+![](RackMultipart20210423-4-qy42g8_html_5204f5c75c5277ca.png)
+
+1. Enjoy!
+
+**Built with Firebase**
+
+**Firebase**  is Google&#39;s mobile platform that helps you quickly develop high-quality apps and grow your business.
+
+[https://firebase.google.com/](https://firebase.google.com/)
