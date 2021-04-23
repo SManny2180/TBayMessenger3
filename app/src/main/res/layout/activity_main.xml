@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF0000"
+    android:backgroundTint="#FF0000"
+    android:theme="@android:style/Theme.Black"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/registration_username"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="16dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#F6F5F5"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Username"
+        android:paddingLeft="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/registration_password"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="password"
+        android:paddingLeft="20dp"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/registration_username"
+        app:layout_constraintStart_toStartOf="@+id/registration_username"
+        app:layout_constraintTop_toBottomOf="@+id/registration_username" />
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="#000000"
+        android:text="Register"
+        app:iconTint="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/registration_password"
+        app:layout_constraintStart_toStartOf="@+id/registration_password"
+        app:layout_constraintTop_toBottomOf="@+id/registration_password" />
+
+    <TextView
+        android:id="@+id/register_tosignin_button"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="#F8F6F6"
+        android:text="Sign in"
+        android:paddingLeft="20dp"
+        android:textColor="@color/black"
+        android:textSize="16pt"
+        app:layout_constraintEnd_toEndOf="@+id/register_button"
+        app:layout_constraintStart_toStartOf="@+id/register_button"
+        app:layout_constraintTop_toBottomOf="@+id/register_button" />
+</androidx.constraintlayout.widget.ConstraintLayout>

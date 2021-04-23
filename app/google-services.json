@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "744309546953",
+    "project_id": "tbaymessenger",
+    "storage_bucket": "tbaymessenger.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744309546953:android:9419aa44902d398d9f9218",
+        "android_client_info": {
+          "package_name": "com.example.t_baymessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744309546953-gtodf645mlchfoahivei5ke2rf00q6bp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaTEqgkluodsNPOl6tFf3CrEjNRqJaolA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "744309546953-gtodf645mlchfoahivei5ke2rf00q6bp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
