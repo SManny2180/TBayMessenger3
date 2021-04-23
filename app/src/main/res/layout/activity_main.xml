@@ -10,24 +10,6 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/registration_username"
-        android:layout_width="0dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="16dp"
-        android:background="#FFFFFF"
-        android:backgroundTint="#F6F5F5"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Username"
-        android:paddingLeft="20dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
         android:id="@+id/registration_password"
         android:layout_width="0dp"
         android:layout_height="50dp"
@@ -35,8 +17,8 @@
         android:background="#FFFFFF"
         android:ems="10"
         android:hint="password"
-        android:paddingLeft="20dp"
         android:inputType="textPassword"
+        android:paddingLeft="20dp"
         app:layout_constraintEnd_toEndOf="@+id/registration_username"
         app:layout_constraintStart_toStartOf="@+id/registration_username"
         app:layout_constraintTop_toBottomOf="@+id/registration_username" />
@@ -54,16 +36,32 @@
         app:layout_constraintTop_toBottomOf="@+id/registration_password" />
 
     <TextView
-        android:id="@+id/register_tosignin_button"
+        android:id="@+id/alreadysignedup_button"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginTop="16dp"
         android:background="#F8F6F6"
-        android:text="Sign in"
+        android:gravity="center"
         android:paddingLeft="20dp"
+        android:text="Sign in"
         android:textColor="@color/black"
         android:textSize="16pt"
         app:layout_constraintEnd_toEndOf="@+id/register_button"
         app:layout_constraintStart_toStartOf="@+id/register_button"
         app:layout_constraintTop_toBottomOf="@+id/register_button" />
+
+    <EditText
+        android:id="@+id/registration_username"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="E-mail"
+        android:paddingLeft="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -16,31 +16,38 @@ class MainActivity : AppCompatActivity() {
 
 
 
-        register_button.setOnClickListener{
+        register_button.setOnClickListener {
             val username = registration_username.text.toString()
             val password = registration_password.text.toString()
 
-            Log.d("RegistrationUsername","Username is $username" )
-            Log.d("RegistrationPassword","Username is $password" )
+            Log.d("MainActivity", "Username is $username")
+            Log.d("MainActivity", "Upassword is $password")
 
-            FirebaseAuth.getInstance().createUserWithEmailAndPassword(username,password)
-                .addOnCompleteListener{
-                   if(!it.isSuccessful){
-                       return@addOnCompleteListener
-                   }
-                    Log.d("RegistrationPage","Created user with id: ${it.result?.user?.uid} ")
+            FirebaseAuth.getInstance().createUserWithEmailAndPassword(username, password)
+                .addOnCompleteListener {
+                    if (!it.isSuccessful) return@addOnCompleteListener
+
+                    Log.d("Main", "Created user with id: ${it.result?.user?.uid}")
+
+                    val intent = Intent(this,LoginActivity::class.java)
                 }
-
-
-            register_tosignin_button.setOnClickListener{
-                Log.d("RegistrationPage","switch to login screen")
-                val intent = Intent(this,LoginActivity::class.java)
-                startActivity(intent)
-            }
-
         }
 
 
+        alreadysignedup_button.setOnClickListener {
+            Log.d("RegistrationPage", "switch to login screen")
+            val intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 
+
+
+
+
 }
+
+
+
+
